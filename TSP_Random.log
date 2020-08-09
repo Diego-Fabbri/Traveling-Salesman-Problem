@@ -1,0 +1,173 @@
+Tried aggregator 1 time.
+MIP Presolve eliminated 0 rows and 10 columns.
+Reduced MIP has 92 rows, 99 columns, and 396 nonzeros.
+Reduced MIP has 90 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.19 ticks)
+Probing time = 0.00 sec. (0.19 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 92 rows, 99 columns, and 396 nonzeros.
+Reduced MIP has 90 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.18 ticks)
+Probing time = 0.00 sec. (0.19 ticks)
+Clique table members: 56.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.15 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      258.2917    20                    258.2917       27         
+      0     0      283.7727    21                    Cuts: 22       41         
+*     0+    0                          290.3076      283.7727       41    2.25%
+
+Clique cuts applied:  2
+Implied bound cuts applied:  2
+Mixed integer rounding cuts applied:  4
+Multi commodity flow cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.09 sec. (2.71 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.09 sec. (2.71 ticks)
+
+Solution status = Optimal
+
+
+Costs:
+From Node : 0
+---> to Node 0 cost c_{ij} is: 0.0
+---> to Node 1 cost c_{ij} is: 81.13962384409754
+---> to Node 2 cost c_{ij} is: 88.32161269642357
+---> to Node 3 cost c_{ij} is: 46.449531214784614
+---> to Node 4 cost c_{ij} is: 54.329775421701555
+---> to Node 5 cost c_{ij} is: 33.498807931905624
+---> to Node 6 cost c_{ij} is: 35.35888162404938
+---> to Node 7 cost c_{ij} is: 64.76117504038614
+---> to Node 8 cost c_{ij} is: 83.7832622413883
+---> to Node 9 cost c_{ij} is: 52.83804672224837
+
+From Node : 1
+---> to Node 0 cost c_{ij} is: 81.13962384409754
+---> to Node 1 cost c_{ij} is: 0.0
+---> to Node 2 cost c_{ij} is: 60.13838746891516
+---> to Node 3 cost c_{ij} is: 77.59048125320727
+---> to Node 4 cost c_{ij} is: 63.895376905163765
+---> to Node 5 cost c_{ij} is: 95.96001547171706
+---> to Node 6 cost c_{ij} is: 46.19367984007551
+---> to Node 7 cost c_{ij} is: 19.162241078130315
+---> to Node 8 cost c_{ij} is: 2.7528894719997052
+---> to Node 9 cost c_{ij} is: 42.7008897410361
+
+From Node : 2
+---> to Node 0 cost c_{ij} is: 88.32161269642357
+---> to Node 1 cost c_{ij} is: 60.13838746891516
+---> to Node 2 cost c_{ij} is: 0.0
+---> to Node 3 cost c_{ij} is: 51.79788660571624
+---> to Node 4 cost c_{ij} is: 36.27712207139833
+---> to Node 5 cost c_{ij} is: 79.98923761927402
+---> to Node 6 cost c_{ij} is: 69.73656325631069
+---> to Node 7 cost c_{ij} is: 49.475834461833955
+---> to Node 8 cost c_{ij} is: 60.094207041991325
+---> to Node 9 cost c_{ij} is: 85.63788721461829
+
+From Node : 3
+---> to Node 0 cost c_{ij} is: 46.449531214784614
+---> to Node 1 cost c_{ij} is: 77.59048125320727
+---> to Node 2 cost c_{ij} is: 51.79788660571624
+---> to Node 3 cost c_{ij} is: 0.0
+---> to Node 4 cost c_{ij} is: 16.84571305019555
+---> to Node 5 cost c_{ij} is: 28.30333778561094
+---> to Node 6 cost c_{ij} is: 50.8115586695269
+---> to Node 7 cost c_{ij} is: 58.5855907122897
+---> to Node 8 cost c_{ij} is: 79.37350677236752
+---> to Node 9 cost c_{ij} is: 74.54259343174789
+
+From Node : 4
+---> to Node 0 cost c_{ij} is: 54.329775421701555
+---> to Node 1 cost c_{ij} is: 63.895376905163765
+---> to Node 2 cost c_{ij} is: 36.27712207139833
+---> to Node 3 cost c_{ij} is: 16.84571305019555
+---> to Node 4 cost c_{ij} is: 0.0
+---> to Node 5 cost c_{ij} is: 44.12706440356172
+---> to Node 6 cost c_{ij} is: 46.77941192791979
+---> to Node 7 cost c_{ij} is: 45.581193532403326
+---> to Node 8 cost c_{ij} is: 65.38027608104171
+---> to Node 9 cost c_{ij} is: 68.9394765339083
+
+From Node : 5
+---> to Node 0 cost c_{ij} is: 33.498807931905624
+---> to Node 1 cost c_{ij} is: 95.96001547171706
+---> to Node 2 cost c_{ij} is: 79.98923761927402
+---> to Node 3 cost c_{ij} is: 28.30333778561094
+---> to Node 4 cost c_{ij} is: 44.12706440356172
+---> to Node 5 cost c_{ij} is: 0.0
+---> to Node 6 cost c_{ij} is: 57.30935796417291
+---> to Node 7 cost c_{ij} is: 77.0278755034513
+---> to Node 8 cost c_{ij} is: 98.1986251365888
+---> to Node 9 cost c_{ij} is: 79.91802875678391
+
+From Node : 6
+---> to Node 0 cost c_{ij} is: 35.35888162404938
+---> to Node 1 cost c_{ij} is: 46.19367984007551
+---> to Node 2 cost c_{ij} is: 69.73656325631069
+---> to Node 3 cost c_{ij} is: 50.8115586695269
+---> to Node 4 cost c_{ij} is: 46.77941192791979
+---> to Node 5 cost c_{ij} is: 57.30935796417291
+---> to Node 6 cost c_{ij} is: 0.0
+---> to Node 7 cost c_{ij} is: 31.775016391154388
+---> to Node 8 cost c_{ij} is: 48.89510100877184
+---> to Node 9 cost c_{ij} is: 23.866005095854526
+
+From Node : 7
+---> to Node 0 cost c_{ij} is: 64.76117504038614
+---> to Node 1 cost c_{ij} is: 19.162241078130315
+---> to Node 2 cost c_{ij} is: 49.475834461833955
+---> to Node 3 cost c_{ij} is: 58.5855907122897
+---> to Node 4 cost c_{ij} is: 45.581193532403326
+---> to Node 5 cost c_{ij} is: 77.0278755034513
+---> to Node 6 cost c_{ij} is: 31.775016391154388
+---> to Node 7 cost c_{ij} is: 0.0
+---> to Node 8 cost c_{ij} is: 21.228121252868743
+---> to Node 9 cost c_{ij} is: 38.191278900572925
+
+From Node : 8
+---> to Node 0 cost c_{ij} is: 83.7832622413883
+---> to Node 1 cost c_{ij} is: 2.7528894719997052
+---> to Node 2 cost c_{ij} is: 60.094207041991325
+---> to Node 3 cost c_{ij} is: 79.37350677236752
+---> to Node 4 cost c_{ij} is: 65.38027608104171
+---> to Node 5 cost c_{ij} is: 98.1986251365888
+---> to Node 6 cost c_{ij} is: 48.89510100877184
+---> to Node 7 cost c_{ij} is: 21.228121252868743
+---> to Node 8 cost c_{ij} is: 0.0
+---> to Node 9 cost c_{ij} is: 45.30659731779378
+
+From Node : 9
+---> to Node 0 cost c_{ij} is: 52.83804672224837
+---> to Node 1 cost c_{ij} is: 42.7008897410361
+---> to Node 2 cost c_{ij} is: 85.63788721461829
+---> to Node 3 cost c_{ij} is: 74.54259343174789
+---> to Node 4 cost c_{ij} is: 68.9394765339083
+---> to Node 5 cost c_{ij} is: 79.91802875678391
+---> to Node 6 cost c_{ij} is: 23.866005095854526
+---> to Node 7 cost c_{ij} is: 38.191278900572925
+---> to Node 8 cost c_{ij} is: 45.30659731779378
+---> to Node 9 cost c_{ij} is: 0.0
+
+Optimal value = 290.3076024867529
+x[0][6] = 1.0
+x[1][8] = 1.0
+x[2][4] = 1.0
+x[3][5] = 1.0
+x[4][3] = 1.0
+x[5][0] = 1.0
+x[6][9] = 1.0
+x[7][2] = 1.0
+x[8][7] = 1.0
+x[9][1] = 1.0
