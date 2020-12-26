@@ -97,7 +97,7 @@ public class TSP {
             for (int i = 0; i < n; i++) {
                 System.out.println("From Node : " + i);
                 for (int j = 0; j < n; j++) {
-                System.out.print("---> to Node "+ j +" cost c_{ij} is: "+c[i][j]);
+                System.out.print("---> to Node "+ j +" cost c["+ i +"]["+ j + "] is: " + c[i][j]);
                 System.out.println();
                }
                  System.out.println();
@@ -107,6 +107,7 @@ public class TSP {
             
             
             System.out.println("Optimal value = " + cplex.getObjValue());
+            System.out.println();
 
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < n; j++) {
