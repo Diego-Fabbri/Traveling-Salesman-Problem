@@ -1,0 +1,212 @@
+Tried aggregator 1 time.
+MIP Presolve eliminated 0 rows and 10 columns.
+Reduced MIP has 92 rows, 99 columns, and 396 nonzeros.
+Reduced MIP has 90 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.19 ticks)
+Probing time = 0.00 sec. (0.19 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 92 rows, 99 columns, and 396 nonzeros.
+Reduced MIP has 90 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.18 ticks)
+Probing time = 0.00 sec. (0.19 ticks)
+Clique table members: 56.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.13 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      237.6564    16                    237.6564       22         
+      0     0      239.9103    20                    Cuts: 35       37         
+      0     0      242.1895    22                    Cuts: 10       52         
+      0     0      247.6045    21                    Cuts: 16       59         
+      0     0      253.8155    23                     Cuts: 7       65         
+*     0+    0                          272.5211      253.8155       65    6.86%
+*     0+    0                          268.8962      253.8155       65    5.61%
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 0 rows and 52 columns.
+Reduced MIP has 92 rows, 47 columns, and 246 nonzeros.
+Reduced MIP has 38 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.12 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+Cover probing fixed 0 vars, tightened 3 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 92 rows, 47 columns, and 246 nonzeros.
+Reduced MIP has 38 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.10 ticks)
+Represolve time = 0.02 sec. (0.37 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+Clique table members: 33.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.23 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          268.8962      258.6930      107    3.79%
+      0     0      253.8155    22      268.8962      258.6930      107    3.79%
+      0     0      259.6044    25      268.8962      Cuts: 22      121    3.46%
+      0     0      262.2418    26      268.8962       Cuts: 9      126    2.47%
+      0     0      262.9930    20      268.8962      Cuts: 12      136    2.20%
+*     0+    0                          262.9930      262.9930      136    0.00%
+      0     0        cutoff            262.9930      262.9930      136    0.00%
+Elapsed time = 0.08 sec. (14.95 ticks, tree = 0.00 MB, solutions = 3)
+
+Clique cuts applied:  3
+Cover cuts applied:  2
+Mixed integer rounding cuts applied:  8
+Zero-half cuts applied:  9
+Lift and project cuts applied:  4
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.08 sec. (14.95 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.08 sec. (14.95 ticks)
+
+Solution status = Optimal
+
+
+Costs:
+From Node : 0
+---> to Node 0 cost c[0][0] is: 0.0
+---> to Node 1 cost c[0][1] is: 46.88014677478604
+---> to Node 2 cost c[0][2] is: 82.05881388445914
+---> to Node 3 cost c[0][3] is: 47.74882015869782
+---> to Node 4 cost c[0][4] is: 64.38704926571698
+---> to Node 5 cost c[0][5] is: 41.469558524084846
+---> to Node 6 cost c[0][6] is: 72.29119155868791
+---> to Node 7 cost c[0][7] is: 52.69786700184393
+---> to Node 8 cost c[0][8] is: 73.71638219109299
+---> to Node 9 cost c[0][9] is: 40.5008576776692
+
+From Node : 1
+---> to Node 0 cost c[1][0] is: 46.88014677478604
+---> to Node 1 cost c[1][1] is: 0.0
+---> to Node 2 cost c[1][2] is: 36.47253457773955
+---> to Node 3 cost c[1][3] is: 15.997635689956146
+---> to Node 4 cost c[1][4] is: 58.0771720828803
+---> to Node 5 cost c[1][5] is: 54.41549946851192
+---> to Node 6 cost c[1][6] is: 26.357018464032436
+---> to Node 7 cost c[1][7] is: 34.8227009313624
+---> to Node 8 cost c[1][8] is: 32.99806474382115
+---> to Node 9 cost c[1][9] is: 58.63827015116353
+
+From Node : 2
+---> to Node 0 cost c[2][0] is: 82.05881388445914
+---> to Node 1 cost c[2][1] is: 36.47253457773955
+---> to Node 2 cost c[2][2] is: 0.0
+---> to Node 3 cost c[2][3] is: 46.0052220169624
+---> to Node 4 cost c[2][4] is: 65.7167544000546
+---> to Node 5 cost c[2][5] is: 76.01603915324182
+---> to Node 6 cost c[2][6] is: 10.135093448647002
+---> to Node 7 cost c[2][7] is: 62.22903711216766
+---> to Node 8 cost c[2][8] is: 15.797773267838965
+---> to Node 9 cost c[2][9] is: 81.60803774127025
+
+From Node : 3
+---> to Node 0 cost c[3][0] is: 47.74882015869782
+---> to Node 1 cost c[3][1] is: 15.997635689956146
+---> to Node 2 cost c[3][2] is: 46.0052220169624
+---> to Node 3 cost c[3][3] is: 0.0
+---> to Node 4 cost c[3][4] is: 73.17055711841394
+---> to Node 5 cost c[3][5] is: 66.01860582821018
+---> to Node 6 cost c[3][6] is: 36.31135124881392
+---> to Node 7 cost c[3][7] is: 18.917427378411126
+---> to Node 8 cost c[3][8] is: 46.73960346019892
+---> to Node 9 cost c[3][9] is: 69.40036638670679
+
+From Node : 4
+---> to Node 0 cost c[4][0] is: 64.38704926571698
+---> to Node 1 cost c[4][1] is: 58.0771720828803
+---> to Node 2 cost c[4][2] is: 65.7167544000546
+---> to Node 3 cost c[4][3] is: 73.17055711841394
+---> to Node 4 cost c[4][4] is: 0.0
+---> to Node 5 cost c[4][5] is: 26.70020003799332
+---> to Node 6 cost c[4][6] is: 62.06247705827983
+---> to Node 7 cost c[4][7] is: 90.6088799381833
+---> to Node 8 cost c[4][8] is: 49.949986166138885
+---> to Node 9 cost c[4][9] is: 31.634656788227304
+
+From Node : 5
+---> to Node 0 cost c[5][0] is: 41.469558524084846
+---> to Node 1 cost c[5][1] is: 54.41549946851192
+---> to Node 2 cost c[5][2] is: 76.01603915324182
+---> to Node 3 cost c[5][3] is: 66.01860582821018
+---> to Node 4 cost c[5][4] is: 26.70020003799332
+---> to Node 5 cost c[5][5] is: 0.0
+---> to Node 6 cost c[5][6] is: 69.16802565761387
+---> to Node 7 cost c[5][7] is: 80.15249230888307
+---> to Node 8 cost c[5][8] is: 61.81002562336699
+---> to Node 9 cost c[5][9] is: 5.939147520657086
+
+From Node : 6
+---> to Node 0 cost c[6][0] is: 72.29119155868791
+---> to Node 1 cost c[6][1] is: 26.357018464032436
+---> to Node 2 cost c[6][2] is: 10.135093448647002
+---> to Node 3 cost c[6][3] is: 36.31135124881392
+---> to Node 4 cost c[6][4] is: 62.06247705827983
+---> to Node 5 cost c[6][5] is: 69.16802565761387
+---> to Node 6 cost c[6][6] is: 0.0
+---> to Node 7 cost c[6][7] is: 53.255835220466174
+---> to Node 8 cost c[6][8] is: 15.210351586951044
+---> to Node 9 cost c[6][9] is: 74.5374169630889
+
+From Node : 7
+---> to Node 0 cost c[7][0] is: 52.69786700184393
+---> to Node 1 cost c[7][1] is: 34.8227009313624
+---> to Node 2 cost c[7][2] is: 62.22903711216766
+---> to Node 3 cost c[7][3] is: 18.917427378411126
+---> to Node 4 cost c[7][4] is: 90.6088799381833
+---> to Node 5 cost c[7][5] is: 80.15249230888307
+---> to Node 6 cost c[7][6] is: 53.255835220466174
+---> to Node 7 cost c[7][7] is: 0.0
+---> to Node 8 cost c[7][8] is: 65.0682609781859
+---> to Node 9 cost c[7][9] is: 82.62628714199046
+
+From Node : 8
+---> to Node 0 cost c[8][0] is: 73.71638219109299
+---> to Node 1 cost c[8][1] is: 32.99806474382115
+---> to Node 2 cost c[8][2] is: 15.797773267838965
+---> to Node 3 cost c[8][3] is: 46.73960346019892
+---> to Node 4 cost c[8][4] is: 49.949986166138885
+---> to Node 5 cost c[8][5] is: 61.81002562336699
+---> to Node 6 cost c[8][6] is: 15.210351586951044
+---> to Node 7 cost c[8][7] is: 65.0682609781859
+---> to Node 8 cost c[8][8] is: 0.0
+---> to Node 9 cost c[8][9] is: 67.57282178991211
+
+From Node : 9
+---> to Node 0 cost c[9][0] is: 40.5008576776692
+---> to Node 1 cost c[9][1] is: 58.63827015116353
+---> to Node 2 cost c[9][2] is: 81.60803774127025
+---> to Node 3 cost c[9][3] is: 69.40036638670679
+---> to Node 4 cost c[9][4] is: 31.634656788227304
+---> to Node 5 cost c[9][5] is: 5.939147520657086
+---> to Node 6 cost c[9][6] is: 74.5374169630889
+---> to Node 7 cost c[9][7] is: 82.62628714199046
+---> to Node 8 cost c[9][8] is: 67.57282178991211
+---> to Node 9 cost c[9][9] is: 0.0
+
+Optimal value = 262.9930066531881
+
+x[0][9] = 1.0
+x[1][3] = 1.0
+x[2][6] = 1.0
+x[3][7] = 1.0
+x[4][8] = 1.0
+x[5][4] = 1.0
+x[6][1] = 1.0
+x[7][0] = 1.0
+x[8][2] = 1.0
+x[9][5] = 1.0
